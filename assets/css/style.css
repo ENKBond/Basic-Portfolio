@@ -39,3 +39,16 @@ h2 {
     clear: both;
     color: #4aaaa5;
 }
+
+#bio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2.0;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    transform: rotate(90deg);
+    float: left;
+    padding-top: 60px;
+}
