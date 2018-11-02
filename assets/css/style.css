@@ -109,7 +109,7 @@ form {
 .block {
     clear:both;
     width: 400px;
-    margin: auto;
+    margin-left: 0;
     background-color: white;
     z-index: -1;
     padding: 0;
