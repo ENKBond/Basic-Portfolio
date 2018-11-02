@@ -3,34 +3,42 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>About Me</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+<section class="navTop"></section>
+<body class="background">
+    <header>
+        <h1>Erika Bond</h1>
+            <div class="mainNav">
+                <a class="active" href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+    </header>
 
-<header>
-    <h1>Erika Bond</h1>
-    <nav class="mainNav">
-            <ul>
-                <li class="navItem"><a href="index.html">About</a></li>
-                <li class="navItem"><a href="contact.html">Contact</a></li>
-                <li class="navItem"><a href="portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
-</header>
-    
-<h2>Contact</h2>
+
+<div class="wrapper">    
+    <h2>Contact</h2>
         
-<form>
-    Name<br>
-    <input type="text" name="name"><br>
-    Email<br>
-    <input type="text" name="email"><br>
-    Message<br>
-    <textarea name="area" rows="10" columns="30"></textarea>
-    <input id="submit" type="submit">
-</form>
+    <form>
+        Name<br>
+        <input class="field" type="text" name="name" placeholder="John Smith"><br>
+        Email<br>
+        <input class="field" type="text" name="email" placeholder="example@gmail.com"><br>
+        Message<br>
+        <textarea class="field" name="area" rows="10" columns="30"></textarea>
+        <input class="button" id="submit" type="submit">
+    </form>
+</div> 
+
+<div class="clearfix"></div>
+
+<footer>
+    &copy:2018 Erika Bond 
+</footer>
+
 </body>
 
 </html>
